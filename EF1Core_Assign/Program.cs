@@ -11,7 +11,6 @@ namespace EF1Core_Assign
             Console.WriteLine(context.Database.CanConnect()
                 ? "Database created and connected successfully."
                 : "Cannot connect to the database.");
-            Console.ReadLine();
         }
     }
 }
